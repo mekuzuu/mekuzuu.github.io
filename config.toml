@@ -10,7 +10,7 @@ pygmentsUseClasses = true
 [params]
   description = ""
   copyright = "Copyright © 2022 mudrk"
-  dark = "auto"
+  dark = "off"
   highlight = true
 
 [menu]

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="shortcut icon" href="https://mudrk.github.io/favicon.ico">
+    
+    <link rel="stylesheet" href="/css/style.min.css">
+
+    <title>Alacrittyを使い始めた</title>
+</head>
+<body><header id="banner">
+    <h2><a href="https://mudrk.github.io/">チラシの裏</a></h2>
+    <nav>
+        <ul>
+            <li>
+                <a href="/" title="posts">posts</a>
+            </li><li>
+                <a href="/about/" title="about">about</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main id="content">
+<article>
+    <header id="post-header">
+        <h1>Alacrittyを使い始めた</h1>
+        <div>
+                <time>January 4, 2022</time>
+            </div>
+    </header><p>ターミナルエミュレータをAlacrittyに変えてみました。</p>
+<h2 id="alacritty">Alacritty</h2>
+<p>Rust製のターミナルエミュレータです。</p>
+<p>GPUでレンダリングするため高速らしいです。</p>
+<p><a href="https://github.com/alacritty/alacritty">https://github.com/alacritty/alacritty</a></p>
+<h2 id="モチベーション">モチベーション</h2>
+<p>なんとなくiTerm2を使っていたが、最近Rust製のツールが便利で色々試していたところ、Alacrittyを知りました。</p>
+<p>高速かつyamlで設定ができる点に魅力を感じました。</p>
+<h2 id="インストール">インストール</h2>
+<p><code>Homebrew</code>を使っているので、下記コマンドで入れました。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">brew install alacritty
+</span></span></code></pre></div><h2 id="configuration">Configuration</h2>
+<p>設定は以下を参考にしました。</p>
+<p><a href="https://github.com/chocoby/dotfiles/blob/master/.alacritty.yml">https://github.com/chocoby/dotfiles/blob/master/.alacritty.yml</a></p>
+<h2 id="font">Font</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nt">font</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">normal</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">family</span><span class="p">:</span><span class="w"> </span><span class="l">JetBrains Mono</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">style</span><span class="p">:</span><span class="w"> </span><span class="l">Regular</span><span class="w">
+</span></span></span></code></pre></div><h2 id="shell">Shell</h2>
+<p>fish shellを起動するように設定。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nt">shell</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">program</span><span class="p">:</span><span class="w"> </span><span class="l">/usr/local/bin/fish</span><span class="w">
+</span></span></span></code></pre></div><h2 id="keybindings">KeyBindings</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nt">key_bindings</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span>- {<span class="w"> </span><span class="nt">key: Key0,         mods: Command,           action</span><span class="p">:</span><span class="w"> </span><span class="l">ResetFontSize }</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span>- {<span class="w"> </span><span class="nt">key: Semicolon,    mods: Command|Shift,     action</span><span class="p">:</span><span class="w"> </span><span class="l">IncreaseFontSize }</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span>- {<span class="w"> </span><span class="nt">key: Minus,        mods: Command|Shift,     action</span><span class="p">:</span><span class="w"> </span><span class="l">DecreaseFontSize }</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span>- {<span class="w"> </span><span class="nt">key: N,            mods: Command,           action</span><span class="p">:</span><span class="w"> </span><span class="l">SpawnNewInstance }</span><span class="w">
+</span></span></span></code></pre></div><h2 id="感想">感想</h2>
+<p>いまのところキビキビ動いています。</p>
+<p>高速が故にミニマムな設計ですが、慣れれば問題ない印象です。</p>
+<p>しばらくは Alacritty を使ってみようと思います。</p>
+</article>
+
+        </main><footer id="footer">
+    Copyright © 2022 mudrk
+</footer>
+</body>
+</html>
