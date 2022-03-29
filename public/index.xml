@@ -6,36 +6,24 @@
     <description>Recent content on チラシの裏</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Sun, 13 Mar 2022 22:23:20 +0900</lastBuildDate>
-    
-	<atom:link href="https://mudrk.github.io/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    
+    <lastBuildDate>Sun, 13 Mar 2022 22:23:20 +0900</lastBuildDate><atom:link href="https://mudrk.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>「コンセプトから理解するRust」を読んだ</title>
       <link>https://mudrk.github.io/post/0313/</link>
       <pubDate>Sun, 13 Mar 2022 22:23:20 +0900</pubDate>
       
       <guid>https://mudrk.github.io/post/0313/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://gihyo.jp/book/2022/978-4-297-12562-2&#34;&gt;コンセプトから理解するRust&lt;/a&gt;を読んだので、動機や感想について簡単に残しておきたいと思います。&lt;/p&gt;
-&lt;p&gt;本書の概要ついては、前節の内容紹介や目次に書いてあるため割愛します。&lt;/p&gt;
-&lt;h2 id=&#34;動機&#34;&gt;動機&lt;/h2&gt;
-&lt;p&gt;Rustの入門を、 &lt;a href=&#34;https://doc.rust-lang.org/book/&#34;&gt;the book&lt;/a&gt;  と呼ばれる公式ドキュメントを始めるも、あまり理解が進まず途中で挫折。&lt;/p&gt;
-&lt;p&gt;そこで、日本語で書かれたRust入門書を調べていたところ、「コンセプトから理解する」というキーワードに惹かれ、購入を決意したもの。&lt;/p&gt;
-&lt;h2 id=&#34;感想&#34;&gt;感想&lt;/h2&gt;
-&lt;p&gt;総論、良かったです。&lt;/p&gt;
-&lt;p&gt;他のRust入門書を読んだことがないため何とも言えないのですが、これからRustを始める方にオススメできそうな内容でした。&lt;/p&gt;
-&lt;p&gt;本書は、タイトルにもある通り、本書はRust特有の概念をコンセプトに軸足を置いている点が大きな特徴です。
-Rustの所有権やトレイトと言った概念を、CやPythonといった多言語と比較しながら取り上げてくれています。&lt;/p&gt;
-&lt;p&gt;例えば、C言語におけるメモリ管理の難しさやJavaにおける多重継承問題が比較として取り上げられていたりするのですが、テキストだけでなく実際のソースコードや図を用いて丁寧に説明してくれているため、読み手もイメージが湧きやすい内容になっているのではないかと思いました。&lt;/p&gt;
-&lt;p&gt;他言語との対比を用いることで、難しいとされているRust特有の概念をうまく説明してくれているような気がします。&lt;/p&gt;
-&lt;h2 id=&#34;読書メモ&#34;&gt;読書メモ&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://gist.github.com/mudrk/507bb55dc5fb0a2257174249219c3230&#34;&gt;コンセプトから始めるRust_読書メモ · GitHub&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>コンセプトから理解するRustを読んだので、動機や感想について簡単に残しておきたいと思います。
+本書の概要ついては、前節の内容紹介や目次に書いてあるため割愛します。
+動機 Rustの入門を、 the book と呼ばれる公式ドキュメントを始めるも、あまり理解が進まず途中で挫折。
+そこで、日本語で書かれたRust入門書を調べていたところ、「コンセプトから理解する」というキーワードに惹かれ、購入を決意したもの。
+感想 総論、良かったです。
+他のRust入門書を読んだことがないため何とも言えないのですが、これからRustを始める方にオススメできそうな内容でした。
+本書は、タイトルにもある通りRust特有の概念をコンセプトに軸足を置いている点が大きな特徴です。 Rustの所有権やトレイトと言った概念を、CやPythonといった多言語と比較しながら取り上げてくれています。
+例えば、C言語におけるメモリ管理の難しさやJavaにおける多重継承問題が比較として取り上げられていたりするのですが、テキストだけでなく実際のソースコードや図を用いて丁寧に説明してくれているため、読み手もイメージが湧きやすい内容になっているのではないかと思いました。
+他言語との対比を用いることで、難しいとされているRust特有の概念をうまく説明してくれているような気がします。
+読書メモ コンセプトから始めるRust_読書メモ · GitHub</description>
     </item>
-    
-    
     
     <item>
       <title>「嫌われる勇気」を読んだ</title>
@@ -43,50 +31,28 @@ Rustの所有権やトレイトと言った概念を、CやPythonといった多
       <pubDate>Thu, 13 Jan 2022 09:50:16 +0900</pubDate>
       
       <guid>https://mudrk.github.io/post/0113/</guid>
-      <description>&lt;h2 id=&#34;内容&#34;&gt;内容&lt;/h2&gt;
-&lt;p&gt;青年と哲人の対話形式によって、アドラーの心理学について教えてくれる本です。&lt;/p&gt;
-&lt;p&gt;アドラーの心理学とは、人が幸せに生きるための学問みたいなもので、以下の4つの概念がキーワードになります。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;目的論&lt;/li&gt;
-&lt;li&gt;すべての悩みは対人関係&lt;/li&gt;
-&lt;li&gt;課題の分離&lt;/li&gt;
-&lt;li&gt;共同体感覚&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;目的論&#34;&gt;目的論&lt;/h3&gt;
-&lt;p&gt;アドラーの心理学の一番の特徴は、「原因論」ではなく「目的論」を提唱しているところ。&lt;br&gt;
-いじめを受けたから引きこもるのが「原因論」で、誰かに心配して欲しいから引きこもるのが「目的論」。&lt;br&gt;
-つまり、過去の原因ではなく目的に焦点をあてたのがアドラーの心理学の考え方。&lt;/p&gt;
-&lt;h3 id=&#34;すべての悩みは対人関係&#34;&gt;すべての悩みは対人関係&lt;/h3&gt;
-&lt;p&gt;その上で、アドラーの心理学では、すべての悩みは「対人関係の悩み」であるとしている。&lt;br&gt;
-「対人関係の悩み」では、「劣等感」がキーワードになってくる。
-「劣等感」は「他人が存在しなければ成り立たず、他者と比べて劣っていると感じるのは「主観」であって「客観的な事実」ではないとしている。&lt;br&gt;
-また、対人関係の軸に「競争」という軸を持ち込んでしまうと、他者を「敵」と捉えてしまう。&lt;br&gt;
-そして、最終的には権力争いが始まり人間は「復讐」の段階に入ってしまう。&lt;br&gt;
-この権力争いから逃れるためには周りの人は「敵」ではなく「仲間」であると考える必要があるとしている。&lt;/p&gt;
-&lt;h3 id=&#34;課題の分離&#34;&gt;課題の分離&lt;/h3&gt;
-&lt;p&gt;そこで、アドラーの心理学では「課題の分離」と言う方法が対人関係の出発点であると提唱している。&lt;br&gt;
-「課題の分離」とは、「自分の課題」と「他者の課題」を明確に分けると言うもの。&lt;br&gt;
-例えば、これを言ったら相手にどう思われるだろうは課題の分離ができていない状態。
-相手がどう思うかは相手の課題であり、自分の課題ではない。&lt;br&gt;
-他者の課題に介入してしまうと、「対人関係の悩み」が引き起こされてしまう。逆もしかりで、自分の課題に他者を介入させないことが大事。&lt;/p&gt;
-&lt;h3 id=&#34;共同体感覚&#34;&gt;共同体感覚&lt;/h3&gt;
-&lt;p&gt;では、対人関係のゴールはどういったものか。&lt;br&gt;
-アドラーの心理学では「共同体感覚」と提唱している。&lt;br&gt;
-「共同体感覚」とは、他者を「仲間」だと認識して、そこに「自分の居場所がある」と感じると言うもの。&lt;br&gt;
-ここでは「共同体」の定義が大事で、例えば国家や人類などを包括した全てであり、時間軸においては過去から未来までも含まれるし、さらには動植物や無生物までも含まれるとしている。&lt;br&gt;
-そして、「共同体感覚」を持つには、「自己受容」「他者信頼」「他者貢献」の3つが必要であるとされている。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;自己受容: ありのままの自分をそのまま受け入れること&lt;/li&gt;
-&lt;li&gt;他者信頼: 他者を信頼するときに条件を一切付けないこと&lt;/li&gt;
-&lt;li&gt;他者貢献: 自己犠牲ではなく、自分の価値を実感するためになされること&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;所感&#34;&gt;所感&lt;/h2&gt;
-&lt;p&gt;自身も過度に人の目を気にしてしまいがちだが、マインドを180度変えてくれるようなそんな1冊でした。&lt;br&gt;
-すぐに実践するのは難しいですが、 キーワードとなる概念を頭の片隅に置くことで、生きづらい日常が少しずつ変わっていけばいいなと思います。&lt;/p&gt;
-</description>
+      <description>内容 青年と哲人の対話形式によって、アドラーの心理学について教えてくれる本です。
+アドラーの心理学とは、人が幸せに生きるための学問みたいなもので、以下の4つの概念がキーワードになります。
+ 目的論 すべての悩みは対人関係 課題の分離 共同体感覚  目的論 アドラーの心理学の一番の特徴は、「原因論」ではなく「目的論」を提唱しているところ。
+いじめを受けたから引きこもるのが「原因論」で、誰かに心配して欲しいから引きこもるのが「目的論」。
+つまり、過去の原因ではなく目的に焦点をあてたのがアドラーの心理学の考え方。
+すべての悩みは対人関係 その上で、アドラーの心理学では、すべての悩みは「対人関係の悩み」であるとしている。
+「対人関係の悩み」では、「劣等感」がキーワードになってくる。 「劣等感」は「他人が存在しなければ成り立たず、他者と比べて劣っていると感じるのは「主観」であって「客観的な事実」ではないとしている。
+また、対人関係の軸に「競争」という軸を持ち込んでしまうと、他者を「敵」と捉えてしまう。
+そして、最終的には権力争いが始まり人間は「復讐」の段階に入ってしまう。
+この権力争いから逃れるためには周りの人は「敵」ではなく「仲間」であると考える必要があるとしている。
+課題の分離 そこで、アドラーの心理学では「課題の分離」と言う方法が対人関係の出発点であると提唱している。
+「課題の分離」とは、「自分の課題」と「他者の課題」を明確に分けると言うもの。
+例えば、これを言ったら相手にどう思われるだろうは課題の分離ができていない状態。 相手がどう思うかは相手の課題であり、自分の課題ではない。
+他者の課題に介入してしまうと、「対人関係の悩み」が引き起こされてしまう。逆もしかりで、自分の課題に他者を介入させないことが大事。
+共同体感覚 では、対人関係のゴールはどういったものか。
+アドラーの心理学では「共同体感覚」と提唱している。
+「共同体感覚」とは、他者を「仲間」だと認識して、そこに「自分の居場所がある」と感じると言うもの。
+ここでは「共同体」の定義が大事で、例えば国家や人類などを包括した全てであり、時間軸においては過去から未来までも含まれるし、さらには動植物や無生物までも含まれるとしている。
+そして、「共同体感覚」を持つには、「自己受容」「他者信頼」「他者貢献」の3つが必要であるとされている。
+ 自己受容: ありのままの自分をそのまま受け入れること 他者信頼: 他者を信頼するときに条件を一切付けないこと 他者貢献: 自己犠牲ではなく、自分の価値を実感するためになされること  所感 自身も過度に人の目を気にしてしまいがちだが、マインドを180度変えてくれるようなそんな1冊でした。
+すぐに実践するのは難しいですが、 キーワードとなる概念を頭の片隅に置くことで、生きづらい日常が少しずつ変わっていけばいいなと思います。</description>
     </item>
-    
-    
     
     <item>
       <title>Alacrittyを使い始めた</title>
@@ -94,42 +60,20 @@ Rustの所有権やトレイトと言った概念を、CやPythonといった多
       <pubDate>Tue, 04 Jan 2022 00:11:16 +0900</pubDate>
       
       <guid>https://mudrk.github.io/post/0104/</guid>
-      <description>&lt;p&gt;ターミナルエミュレータをAlacrittyに変えてみました。&lt;/p&gt;
-&lt;h2 id=&#34;alacritty&#34;&gt;Alacritty&lt;/h2&gt;
-&lt;p&gt;Rust製のターミナルエミュレータです。&lt;/p&gt;
-&lt;p&gt;GPUでレンダリングするため高速らしいです。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/alacritty/alacritty&#34;&gt;https://github.com/alacritty/alacritty&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;モチベーション&#34;&gt;モチベーション&lt;/h2&gt;
-&lt;p&gt;なんとなくiTerm2を使っていたが、最近Rust製のツールが便利で色々試していたところ、Alacrittyを知りました。&lt;/p&gt;
-&lt;p&gt;高速かつyamlで設定ができる点に魅力を感じました。&lt;/p&gt;
-&lt;h2 id=&#34;インストール&#34;&gt;インストール&lt;/h2&gt;
-&lt;p&gt;&lt;code&gt;Homebrew&lt;/code&gt;を使っているので、下記コマンドで入れました。&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;brew install alacritty
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;configuration&#34;&gt;Configuration&lt;/h2&gt;
-&lt;p&gt;設定は以下を参考にしました。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/chocoby/dotfiles/blob/master/.alacritty.yml&#34;&gt;https://github.com/chocoby/dotfiles/blob/master/.alacritty.yml&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;font&#34;&gt;Font&lt;/h2&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;font&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;normal&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;family&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;JetBrains Mono&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;style&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;Regular&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;shell&#34;&gt;Shell&lt;/h2&gt;
-&lt;p&gt;fish shellを起動するように設定。&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;shell&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;program&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;/usr/local/bin/fish&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;keybindings&#34;&gt;KeyBindings&lt;/h2&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;key_bindings&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;- {&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;key: Key0,         mods: Command,           action&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;ResetFontSize }&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;- {&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;key: Semicolon,    mods: Command|Shift,     action&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;IncreaseFontSize }&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;- {&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;key: Minus,        mods: Command|Shift,     action&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;DecreaseFontSize }&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;- {&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;key: N,            mods: Command,           action&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;SpawnNewInstance }&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;感想&#34;&gt;感想&lt;/h2&gt;
-&lt;p&gt;いまのところキビキビ動いています。&lt;/p&gt;
-&lt;p&gt;高速が故にミニマムな設計ですが、慣れれば問題ない印象です。&lt;/p&gt;
-&lt;p&gt;しばらくは Alacritty を使ってみようと思います。&lt;/p&gt;
-</description>
+      <description>ターミナルエミュレータをAlacrittyに変えてみました。
+Alacritty Rust製のターミナルエミュレータです。
+GPUでレンダリングするため高速らしいです。
+https://github.com/alacritty/alacritty
+モチベーション なんとなくiTerm2を使っていたが、最近Rust製のツールが便利で色々試していたところ、Alacrittyを知りました。
+高速かつyamlで設定ができる点に魅力を感じました。
+インストール Homebrewを使っているので、下記コマンドで入れました。
+brew install alacritty Configuration 設定は以下を参考にしました。
+https://github.com/chocoby/dotfiles/blob/master/.alacritty.yml
+Font font:normal:family:JetBrains Monostyle:RegularShell fish shellを起動するように設定。
+shell:program:/usr/local/bin/fishKeyBindings key_bindings:- {key: Key0, mods: Command, action:ResetFontSize }- {key: Semicolon, mods: Command|Shift, action:IncreaseFontSize }- {key: Minus, mods: Command|Shift, action:DecreaseFontSize }- {key: N, mods: Command, action:SpawnNewInstance }感想 いまのところキビキビ動いています。
+高速が故にミニマムな設計ですが、慣れれば問題ない印象です。
+しばらくは Alacritty を使ってみようと思います。</description>
     </item>
-    
     
   </channel>
 </rss>
