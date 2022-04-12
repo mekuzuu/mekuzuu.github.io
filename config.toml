@@ -1,6 +1,6 @@
-baseURL = 'https://mudrk.github.io/'
+baseURL = 'https://mdgw.github.io/'
 languageCode = 'ja-jp'
-title = 'チラシの裏'
+title = 'mdgw'
 theme = "etch"
 
 enableInlineShortcodes = true
@@ -9,7 +9,7 @@ pygmentsUseClasses = true
 
 [params]
   description = ""
-  copyright = "Copyright © 2022 mudrk"
+  copyright = "Copyright © mdgw"
   dark = "off"
   highlight = true
 
