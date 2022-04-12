@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Categories on チラシの裏</title><link>https://mudrk.github.io/categories/</link><description>Recent content in Categories on チラシの裏</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><atom:link href="https://mudrk.github.io/categories/index.xml" rel="self" type="application/rss+xml"/><item><title>「コンセプトから理解するRust」を読んだ</title><link>https://mudrk.github.io/post/0313/</link><pubDate>Sun, 13 Mar 2022 22:23:20 +0900</pubDate><guid>https://mudrk.github.io/post/0313/</guid><description>&lt;p>&lt;a href="https://gihyo.jp/book/2022/978-4-297-12562-2">コンセプトから理解するRust&lt;/a>を読んだので、動機や感想について簡単に残しておきたいと思います。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Categories on mdgw</title><link>https://mdgw.github.io/categories/</link><description>Recent content in Categories on mdgw</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><atom:link href="https://mdgw.github.io/categories/index.xml" rel="self" type="application/rss+xml"/><item><title>「コンセプトから理解するRust」を読んだ</title><link>https://mdgw.github.io/post/0313/</link><pubDate>Sun, 13 Mar 2022 22:23:20 +0900</pubDate><guid>https://mdgw.github.io/post/0313/</guid><description>&lt;p>&lt;a href="https://gihyo.jp/book/2022/978-4-297-12562-2">コンセプトから理解するRust&lt;/a>を読んだので、動機や感想について簡単に残しておきたいと思います。&lt;/p>
 &lt;p>本書の概要ついては、前節の内容紹介や目次に書いてあるため割愛します。&lt;/p>
 &lt;h2 id="動機">動機&lt;/h2>
 &lt;p>Rustの入門を、 &lt;a href="https://doc.rust-lang.org/book/">the book&lt;/a> と呼ばれる公式ドキュメントを始めるも、あまり理解が進まず途中で挫折。&lt;/p>
@@ -11,7 +11,7 @@ Rustの所有権やトレイトと言った概念を、CやPythonといった多
 &lt;p>例えば、C言語におけるメモリ管理の難しさやJavaにおける多重継承問題が比較として取り上げられていたりするのですが、テキストだけでなく実際のソースコードや図を用いて丁寧に説明してくれているため、読み手もイメージが湧きやすい内容になっているのではないかと思いました。&lt;/p>
 &lt;p>他言語との対比を用いることで、難しいとされているRust特有の概念をうまく説明してくれているような気がします。&lt;/p>
 &lt;h2 id="読書メモ">読書メモ&lt;/h2>
-&lt;p>&lt;a href="https://gist.github.com/mudrk/507bb55dc5fb0a2257174249219c3230">コンセプトから始めるRust_読書メモ · GitHub&lt;/a>&lt;/p></description></item><item><title>「嫌われる勇気」を読んだ</title><link>https://mudrk.github.io/post/0113/</link><pubDate>Thu, 13 Jan 2022 09:50:16 +0900</pubDate><guid>https://mudrk.github.io/post/0113/</guid><description>&lt;h2 id="内容">内容&lt;/h2>
+&lt;p>&lt;a href="https://gist.github.com/mudrk/507bb55dc5fb0a2257174249219c3230">コンセプトから始めるRust_読書メモ · GitHub&lt;/a>&lt;/p></description></item><item><title>「嫌われる勇気」を読んだ</title><link>https://mdgw.github.io/post/0113/</link><pubDate>Thu, 13 Jan 2022 09:50:16 +0900</pubDate><guid>https://mdgw.github.io/post/0113/</guid><description>&lt;h2 id="内容">内容&lt;/h2>
 &lt;p>青年と哲人の対話形式によって、アドラーの心理学について教えてくれる本です。&lt;/p>
 &lt;p>アドラーの心理学とは、人が幸せに生きるための学問みたいなもので、以下の4つの概念がキーワードになります。&lt;/p>
 &lt;ul>
@@ -50,7 +50,7 @@ Rustの所有権やトレイトと言った概念を、CやPythonといった多
 &lt;/ul>
 &lt;h2 id="所感">所感&lt;/h2>
 &lt;p>自身も過度に人の目を気にしてしまいがちだが、マインドを180度変えてくれるようなそんな1冊でした。&lt;br>
-すぐに実践するのは難しいですが、 キーワードとなる概念を頭の片隅に置くことで、生きづらい日常が少しずつ変わっていけばいいなと思います。&lt;/p></description></item><item><title>Alacrittyを使い始めた</title><link>https://mudrk.github.io/post/0104/</link><pubDate>Tue, 04 Jan 2022 00:11:16 +0900</pubDate><guid>https://mudrk.github.io/post/0104/</guid><description>&lt;p>ターミナルエミュレータをAlacrittyに変えてみました。&lt;/p>
+すぐに実践するのは難しいですが、 キーワードとなる概念を頭の片隅に置くことで、生きづらい日常が少しずつ変わっていけばいいなと思います。&lt;/p></description></item><item><title>Alacrittyを使い始めた</title><link>https://mdgw.github.io/post/0104/</link><pubDate>Tue, 04 Jan 2022 00:11:16 +0900</pubDate><guid>https://mdgw.github.io/post/0104/</guid><description>&lt;p>ターミナルエミュレータをAlacrittyに変えてみました。&lt;/p>
 &lt;h2 id="alacritty">Alacritty&lt;/h2>
 &lt;p>Rust製のターミナルエミュレータです。&lt;/p>
 &lt;p>GPUでレンダリングするため高速らしいです。&lt;/p>
