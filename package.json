@@ -1,0 +1,26 @@
+{
+  "name": "mdgw.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mdgw/mdgw.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mdgw/mdgw.github.io/issues"
+  },
+  "homepage": "https://github.com/mdgw/mdgw.github.io#readme",
+  "devDependencies": {
+    "textlint": "^12.1.1"
+  },
+  "dependencies": {
+    "textlint-rule-preset-ja-technical-writing": "^7.0.0"
+  }
+}
