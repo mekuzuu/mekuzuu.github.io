@@ -18,5 +18,5 @@ jobs:
           REVIEWDOG_GITHUB_API_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           $(npm bin)/textlint -f checkstyle content/post/**.md | \
-            reviewdog -f=checkstyle -name="textlint" -reporter=github-pr-revie
+            reviewdog -f=checkstyle -name="textlint" -reporter=github-pr-review
   
