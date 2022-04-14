@@ -5,7 +5,8 @@ on:
       - master
   pull_request:
 
-textlint:
+jobs:
+ textlint:
     name: runner / textlint
     runs-on: ubuntu-latest
     steps:
@@ -17,4 +18,5 @@ textlint:
           REVIEWDOG_GITHUB_API_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           $(npm bin)/textlint -f checkstyle content/post/**.md | \
-            reviewdog -f=checkstyle -name="textlint" -reporter=github-check -level=info
+            reviewdog -f=checkstyle -name="textlint" -reporter=github-pr-review
+  
