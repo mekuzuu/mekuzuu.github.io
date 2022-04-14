@@ -5,7 +5,8 @@ on:
       - master
   pull_request:
 
-textlint:
+jobs:
+ textlint:
     name: runner / textlint
     runs-on: ubuntu-latest
     steps:
@@ -18,3 +19,4 @@ textlint:
         run: |
           $(npm bin)/textlint -f checkstyle content/post/**.md | \
             reviewdog -f=checkstyle -name="textlint" -reporter=github-check -level=info
+  
