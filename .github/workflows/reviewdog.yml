@@ -19,3 +19,4 @@ jobs:
         run: |
 	 $(npm bin)/textlint content/post/**.md | \
             reviewdog -f=checkstyle -name="textlint" -reporter=github-pr-review
+
