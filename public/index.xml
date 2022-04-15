@@ -1,38 +1,37 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>チラシの裏</title>
-    <link>https://mudrk.github.io/</link>
-    <description>Recent content on チラシの裏</description>
+    <title>mdgw</title>
+    <link>https://mdgw.github.io/</link>
+    <description>Recent content on mdgw</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Sun, 13 Mar 2022 22:23:20 +0900</lastBuildDate><atom:link href="https://mudrk.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 13 Mar 2022 22:23:20 +0900</lastBuildDate><atom:link href="https://mdgw.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>「コンセプトから理解するRust」を読んだ</title>
-      <link>https://mudrk.github.io/post/0313/</link>
+      <link>https://mdgw.github.io/post/0313/</link>
       <pubDate>Sun, 13 Mar 2022 22:23:20 +0900</pubDate>
       
-      <guid>https://mudrk.github.io/post/0313/</guid>
-      <description>コンセプトから理解するRustを読んだので、動機や感想について簡単に残しておきたいと思います。
-本書の概要ついては、前節の内容紹介や目次に書いてあるため割愛します。
+      <guid>https://mdgw.github.io/post/0313/</guid>
+      <description>コンセプトから理解するRustを読んだので、動機や感想について簡単に残しておく。
 動機 Rustの入門を、 the book と呼ばれる公式ドキュメントを始めるも、あまり理解が進まず途中で挫折。
 そこで、日本語で書かれたRust入門書を調べていたところ、「コンセプトから理解する」というキーワードに惹かれ、購入を決意したもの。
-感想 総論、良かったです。
-他のRust入門書を読んだことがないため何とも言えないのですが、これからRustを始める方にオススメできそうな内容でした。
-本書は、タイトルにもある通りRust特有の概念をコンセプトに軸足を置いている点が大きな特徴です。 Rustの所有権やトレイトと言った概念を、CやPythonといった多言語と比較しながら取り上げてくれています。
-例えば、C言語におけるメモリ管理の難しさやJavaにおける多重継承問題が比較として取り上げられていたりするのですが、テキストだけでなく実際のソースコードや図を用いて丁寧に説明してくれているため、読み手もイメージが湧きやすい内容になっているのではないかと思いました。
-他言語との対比を用いることで、難しいとされているRust特有の概念をうまく説明してくれているような気がします。
+感想 総論、良かった。
+他のRust入門書を読んだことがないため何とも言えないが、これからRustを始める方にオススメできそうな内容だった。
+本書は、タイトルにもある通りRust特有の概念をコンセプトに軸足を置いている点が大きな特徴。 Rustの所有権やトレイトと言った概念を、CやPythonといった多言語と比較しながら取り上げてくれている。
+例えば、C言語におけるメモリ管理の難しさやJavaにおける多重継承問題が比較として取り上げられていたりするのだが、テキストだけでなく実際のソースコードや図を用いて丁寧に説明してくれている。 その為、読み手もイメージが湧きやすい内容になっている。
+他言語との対比を用いることで、難しいとされているRust特有の概念をうまく説明してくれているような気がした。
 読書メモ コンセプトから始めるRust_読書メモ · GitHub</description>
     </item>
     
     <item>
       <title>「嫌われる勇気」を読んだ</title>
-      <link>https://mudrk.github.io/post/0113/</link>
+      <link>https://mdgw.github.io/post/0113/</link>
       <pubDate>Thu, 13 Jan 2022 09:50:16 +0900</pubDate>
       
-      <guid>https://mudrk.github.io/post/0113/</guid>
-      <description>内容 青年と哲人の対話形式によって、アドラーの心理学について教えてくれる本です。
-アドラーの心理学とは、人が幸せに生きるための学問みたいなもので、以下の4つの概念がキーワードになります。
+      <guid>https://mdgw.github.io/post/0113/</guid>
+      <description>内容 青年と哲人の対話形式によって、アドラーの心理学について教えてくれる本。
+アドラーの心理学とは、人が幸せに生きるための学問みたいなもので、以下の4つの概念がキーワードとなる。
  目的論 すべての悩みは対人関係 課題の分離 共同体感覚  目的論 アドラーの心理学の一番の特徴は、「原因論」ではなく「目的論」を提唱しているところ。
 いじめを受けたから引きこもるのが「原因論」で、誰かに心配して欲しいから引きこもるのが「目的論」。
 つまり、過去の原因ではなく目的に焦点をあてたのがアドラーの心理学の考え方。
@@ -50,29 +49,29 @@
 「共同体感覚」とは、他者を「仲間」だと認識して、そこに「自分の居場所がある」と感じると言うもの。
 ここでは「共同体」の定義が大事で、例えば国家や人類などを包括した全てであり、時間軸においては過去から未来までも含まれるし、さらには動植物や無生物までも含まれるとしている。
 そして、「共同体感覚」を持つには、「自己受容」「他者信頼」「他者貢献」の3つが必要であるとされている。
- 自己受容: ありのままの自分をそのまま受け入れること 他者信頼: 他者を信頼するときに条件を一切付けないこと 他者貢献: 自己犠牲ではなく、自分の価値を実感するためになされること  所感 自身も過度に人の目を気にしてしまいがちだが、マインドを180度変えてくれるようなそんな1冊でした。
-すぐに実践するのは難しいですが、 キーワードとなる概念を頭の片隅に置くことで、生きづらい日常が少しずつ変わっていけばいいなと思います。</description>
+ 自己受容: ありのままの自分をそのまま受け入れること 他者信頼: 他者を信頼するときに条件を一切付けないこと 他者貢献: 自己犠牲ではなく、自分の価値を実感するためになされること  所感 自身も過度に人の目を気にしてしまいがちだが、マインドを180度変えてくれるようなそんな1冊。
+すぐに実践するのは難しいが、 キーワードとなる概念を頭の片隅に置くことで、生きづらい日常が少しずつ変わっていくことを期待する。</description>
     </item>
     
     <item>
       <title>Alacrittyを使い始めた</title>
-      <link>https://mudrk.github.io/post/0104/</link>
+      <link>https://mdgw.github.io/post/0104/</link>
       <pubDate>Tue, 04 Jan 2022 00:11:16 +0900</pubDate>
       
-      <guid>https://mudrk.github.io/post/0104/</guid>
-      <description>ターミナルエミュレータをAlacrittyに変えてみました。
-Alacritty Rust製のターミナルエミュレータです。
-GPUでレンダリングするため高速らしいです。
+      <guid>https://mdgw.github.io/post/0104/</guid>
+      <description>ターミナルエミュレータをiTerm2からAlacrittyに変えてみた。
+Alacritty Rust製のターミナルエミュレータ。
+GPUでレンダリングするため高速らしい。
 https://github.com/alacritty/alacritty
-モチベーション なんとなくiTerm2を使っていたが、最近Rust製のツールが便利で色々試していたところ、Alacrittyを知りました。
-高速かつyamlで設定ができる点に魅力を感じました。
-インストール Homebrewを使っているので、下記コマンドで入れました。
-brew install alacritty Configuration 設定は以下を参考にしました。
+モチベーション なんとなくiTerm2を使っていたが、最近Rust製のツールが便利で色々試していたところ、Alacrittyを知った。
+高速かつyamlで設定ができる点に魅力を感じた。
+インストール Homebrewを使っているので、下記コマンドで入れた。
+brew install alacritty Configuration 設定は以下を参考にした。
 https://github.com/chocoby/dotfiles/blob/master/.alacritty.yml
-Font font:normal:family:JetBrains Monostyle:RegularShell fish shellを起動するように設定。
-shell:program:/usr/local/bin/fishKeyBindings key_bindings:- {key: Key0, mods: Command, action:ResetFontSize }- {key: Semicolon, mods: Command|Shift, action:IncreaseFontSize }- {key: Minus, mods: Command|Shift, action:DecreaseFontSize }- {key: N, mods: Command, action:SpawnNewInstance }感想 いまのところキビキビ動いています。
-高速が故にミニマムな設計ですが、慣れれば問題ない印象です。
-しばらくは Alacritty を使ってみようと思います。</description>
+Font font:normal:family:JetBrains Monostyle:RegularShell fish shellを起動するように設定した。
+shell:program:/usr/local/bin/fishKeyBindings key_bindings:- {key: Key0, mods: Command, action:ResetFontSize }- {key: Semicolon, mods: Command|Shift, action:IncreaseFontSize }- {key: Minus, mods: Command|Shift, action:DecreaseFontSize }- {key: N, mods: Command, action:SpawnNewInstance }感想 iTerm2よりも高速に動作している。
+高速が故にミニマムな設計だが、慣れれば問題ない印象。
+しばらくは Alacritty を使ってみる。</description>
     </item>
     
   </channel>
