@@ -1,19 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Categories on mdgw</title><link>https://mdgw.github.io/categories/</link><description>Recent content in Categories on mdgw</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><atom:link href="https://mdgw.github.io/categories/index.xml" rel="self" type="application/rss+xml"/><item><title>「コンセプトから理解するRust」を読んだ</title><link>https://mdgw.github.io/post/0313/</link><pubDate>Sun, 13 Mar 2022 22:23:20 +0900</pubDate><guid>https://mdgw.github.io/post/0313/</guid><description>&lt;p>&lt;a href="https://gihyo.jp/book/2022/978-4-297-12562-2">コンセプトから理解するRust&lt;/a>を読んだので、動機や感想について簡単に残しておきたいと思います。&lt;/p>
-&lt;p>本書の概要ついては、前節の内容紹介や目次に書いてあるため割愛します。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Categories on mdgw</title><link>https://mdgw.github.io/categories/</link><description>Recent content in Categories on mdgw</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><atom:link href="https://mdgw.github.io/categories/index.xml" rel="self" type="application/rss+xml"/><item><title>「コンセプトから理解するRust」を読んだ</title><link>https://mdgw.github.io/post/0313/</link><pubDate>Sun, 13 Mar 2022 22:23:20 +0900</pubDate><guid>https://mdgw.github.io/post/0313/</guid><description>&lt;p>&lt;a href="https://gihyo.jp/book/2022/978-4-297-12562-2">コンセプトから理解するRust&lt;/a>を読んだので、動機や感想について簡単に残しておく。&lt;/p>
 &lt;h2 id="動機">動機&lt;/h2>
 &lt;p>Rustの入門を、 &lt;a href="https://doc.rust-lang.org/book/">the book&lt;/a> と呼ばれる公式ドキュメントを始めるも、あまり理解が進まず途中で挫折。&lt;/p>
 &lt;p>そこで、日本語で書かれたRust入門書を調べていたところ、「コンセプトから理解する」というキーワードに惹かれ、購入を決意したもの。&lt;/p>
 &lt;h2 id="感想">感想&lt;/h2>
-&lt;p>総論、良かったです。&lt;/p>
-&lt;p>他のRust入門書を読んだことがないため何とも言えないのですが、これからRustを始める方にオススメできそうな内容でした。&lt;/p>
-&lt;p>本書は、タイトルにもある通りRust特有の概念をコンセプトに軸足を置いている点が大きな特徴です。
-Rustの所有権やトレイトと言った概念を、CやPythonといった多言語と比較しながら取り上げてくれています。&lt;/p>
-&lt;p>例えば、C言語におけるメモリ管理の難しさやJavaにおける多重継承問題が比較として取り上げられていたりするのですが、テキストだけでなく実際のソースコードや図を用いて丁寧に説明してくれているため、読み手もイメージが湧きやすい内容になっているのではないかと思いました。&lt;/p>
-&lt;p>他言語との対比を用いることで、難しいとされているRust特有の概念をうまく説明してくれているような気がします。&lt;/p>
+&lt;p>総論、良かった。&lt;/p>
+&lt;p>他のRust入門書を読んだことがないため何とも言えないが、これからRustを始める方にオススメできそうな内容だった。&lt;/p>
+&lt;p>本書は、タイトルにもある通りRust特有の概念をコンセプトに軸足を置いている点が大きな特徴。
+Rustの所有権やトレイトと言った概念を、CやPythonといった多言語と比較しながら取り上げてくれている。&lt;/p>
+&lt;p>例えば、C言語におけるメモリ管理の難しさやJavaにおける多重継承問題が比較として取り上げられていたりするのだが、テキストだけでなく実際のソースコードや図を用いて丁寧に説明してくれている。
+その為、読み手もイメージが湧きやすい内容になっている。&lt;/p>
+&lt;p>他言語との対比を用いることで、難しいとされているRust特有の概念をうまく説明してくれているような気がした。&lt;/p>
 &lt;h2 id="読書メモ">読書メモ&lt;/h2>
 &lt;p>&lt;a href="https://gist.github.com/mudrk/507bb55dc5fb0a2257174249219c3230">コンセプトから始めるRust_読書メモ · GitHub&lt;/a>&lt;/p></description></item><item><title>「嫌われる勇気」を読んだ</title><link>https://mdgw.github.io/post/0113/</link><pubDate>Thu, 13 Jan 2022 09:50:16 +0900</pubDate><guid>https://mdgw.github.io/post/0113/</guid><description>&lt;h2 id="内容">内容&lt;/h2>
-&lt;p>青年と哲人の対話形式によって、アドラーの心理学について教えてくれる本です。&lt;/p>
-&lt;p>アドラーの心理学とは、人が幸せに生きるための学問みたいなもので、以下の4つの概念がキーワードになります。&lt;/p>
+&lt;p>青年と哲人の対話形式によって、アドラーの心理学について教えてくれる本。&lt;/p>
+&lt;p>アドラーの心理学とは、人が幸せに生きるための学問みたいなもので、以下の4つの概念がキーワードとなる。&lt;/p>
 &lt;ul>
 &lt;li>目的論&lt;/li>
 &lt;li>すべての悩みは対人関係&lt;/li>
@@ -49,20 +49,20 @@ Rustの所有権やトレイトと言った概念を、CやPythonといった多
 &lt;li>他者貢献: 自己犠牲ではなく、自分の価値を実感するためになされること&lt;/li>
 &lt;/ul>
 &lt;h2 id="所感">所感&lt;/h2>
-&lt;p>自身も過度に人の目を気にしてしまいがちだが、マインドを180度変えてくれるようなそんな1冊でした。&lt;br>
-すぐに実践するのは難しいですが、 キーワードとなる概念を頭の片隅に置くことで、生きづらい日常が少しずつ変わっていけばいいなと思います。&lt;/p></description></item><item><title>Alacrittyを使い始めた</title><link>https://mdgw.github.io/post/0104/</link><pubDate>Tue, 04 Jan 2022 00:11:16 +0900</pubDate><guid>https://mdgw.github.io/post/0104/</guid><description>&lt;p>ターミナルエミュレータをAlacrittyに変えてみました。&lt;/p>
+&lt;p>自身も過度に人の目を気にしてしまいがちだが、マインドを180度変えてくれるようなそんな1冊。&lt;br>
+すぐに実践するのは難しいが、 キーワードとなる概念を頭の片隅に置くことで、生きづらい日常が少しずつ変わっていくことを期待する。&lt;/p></description></item><item><title>Alacrittyを使い始めた</title><link>https://mdgw.github.io/post/0104/</link><pubDate>Tue, 04 Jan 2022 00:11:16 +0900</pubDate><guid>https://mdgw.github.io/post/0104/</guid><description>&lt;p>ターミナルエミュレータをiTerm2からAlacrittyに変えてみた。&lt;/p>
 &lt;h2 id="alacritty">Alacritty&lt;/h2>
-&lt;p>Rust製のターミナルエミュレータです。&lt;/p>
-&lt;p>GPUでレンダリングするため高速らしいです。&lt;/p>
+&lt;p>Rust製のターミナルエミュレータ。&lt;/p>
+&lt;p>GPUでレンダリングするため高速らしい。&lt;/p>
 &lt;p>&lt;a href="https://github.com/alacritty/alacritty">https://github.com/alacritty/alacritty&lt;/a>&lt;/p>
 &lt;h2 id="モチベーション">モチベーション&lt;/h2>
-&lt;p>なんとなくiTerm2を使っていたが、最近Rust製のツールが便利で色々試していたところ、Alacrittyを知りました。&lt;/p>
-&lt;p>高速かつyamlで設定ができる点に魅力を感じました。&lt;/p>
+&lt;p>なんとなくiTerm2を使っていたが、最近Rust製のツールが便利で色々試していたところ、Alacrittyを知った。&lt;/p>
+&lt;p>高速かつyamlで設定ができる点に魅力を感じた。&lt;/p>
 &lt;h2 id="インストール">インストール&lt;/h2>
-&lt;p>&lt;code>Homebrew&lt;/code>を使っているので、下記コマンドで入れました。&lt;/p>
+&lt;p>&lt;code>Homebrew&lt;/code>を使っているので、下記コマンドで入れた。&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="line">&lt;span class="cl">brew install alacritty
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="configuration">Configuration&lt;/h2>
-&lt;p>設定は以下を参考にしました。&lt;/p>
+&lt;p>設定は以下を参考にした。&lt;/p>
 &lt;p>&lt;a href="https://github.com/chocoby/dotfiles/blob/master/.alacritty.yml">https://github.com/chocoby/dotfiles/blob/master/.alacritty.yml&lt;/a>&lt;/p>
 &lt;h2 id="font">Font&lt;/h2>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-yaml" data-lang="yaml">&lt;span class="line">&lt;span class="cl">&lt;span class="nt">font&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
@@ -70,7 +70,7 @@ Rustの所有権やトレイトと言った概念を、CやPythonといった多
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">family&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">JetBrains Mono&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">style&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">Regular&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="shell">Shell&lt;/h2>
-&lt;p>fish shellを起動するように設定。&lt;/p>
+&lt;p>fish shellを起動するように設定した。&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-yaml" data-lang="yaml">&lt;span class="line">&lt;span class="cl">&lt;span class="nt">shell&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">program&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">/usr/local/bin/fish&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="keybindings">KeyBindings&lt;/h2>
@@ -80,6 +80,6 @@ Rustの所有権やトレイトと言った概念を、CやPythonといった多
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>- {&lt;span class="w"> &lt;/span>&lt;span class="nt">key: Minus, mods: Command|Shift, action&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">DecreaseFontSize }&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>- {&lt;span class="w"> &lt;/span>&lt;span class="nt">key: N, mods: Command, action&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">SpawnNewInstance }&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="感想">感想&lt;/h2>
-&lt;p>いまのところキビキビ動いています。&lt;/p>
-&lt;p>高速が故にミニマムな設計ですが、慣れれば問題ない印象です。&lt;/p>
-&lt;p>しばらくは Alacritty を使ってみようと思います。&lt;/p></description></item></channel></rss>
+&lt;p>iTerm2よりも高速に動作している。&lt;/p>
+&lt;p>高速が故にミニマムな設計だが、慣れれば問題ない印象。&lt;/p>
+&lt;p>しばらくは Alacritty を使ってみる。&lt;/p></description></item></channel></rss>
