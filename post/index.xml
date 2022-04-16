@@ -1,17 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on mdgw</title><link>https://mdgw.github.io/post/</link><description>Recent content in Posts on mdgw</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Sun, 13 Mar 2022 22:23:20 +0900</lastBuildDate><atom:link href="https://mdgw.github.io/post/index.xml" rel="self" type="application/rss+xml"/><item><title>「コンセプトから理解するRust」を読んだ</title><link>https://mdgw.github.io/post/0313/</link><pubDate>Sun, 13 Mar 2022 22:23:20 +0900</pubDate><guid>https://mdgw.github.io/post/0313/</guid><description>&lt;p>&lt;a href="https://gihyo.jp/book/2022/978-4-297-12562-2">コンセプトから理解するRust&lt;/a>を読んだので、動機や感想について簡単に残しておく。&lt;/p>
-&lt;h2 id="動機">動機&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on mdgw</title><link>https://mdgw.github.io/post/</link><description>Recent content in Posts on mdgw</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Sun, 13 Mar 2022 22:23:20 +0900</lastBuildDate><atom:link href="https://mdgw.github.io/post/index.xml" rel="self" type="application/rss+xml"/><item><title>「コンセプトから理解するRust」を読んだ</title><link>https://mdgw.github.io/post/0313/</link><pubDate>Sun, 13 Mar 2022 22:23:20 +0900</pubDate><guid>https://mdgw.github.io/post/0313/</guid><description>&lt;p>&lt;a href="https://gihyo.jp/book/2022/978-4-297-12562-2">コンセプトから理解するRust&lt;/a>を読んだ感想とか。&lt;/p>
+&lt;h2 id="モチベーション">モチベーション&lt;/h2>
 &lt;p>Rustの入門を、 &lt;a href="https://doc.rust-lang.org/book/">the book&lt;/a> と呼ばれる公式ドキュメントを始めるも、あまり理解が進まず途中で挫折。&lt;/p>
 &lt;p>そこで、日本語で書かれたRust入門書を調べていたところ、「コンセプトから理解する」というキーワードに惹かれ、購入を決意したもの。&lt;/p>
 &lt;h2 id="感想">感想&lt;/h2>
-&lt;p>総論、良かった。&lt;/p>
-&lt;p>他のRust入門書を読んだことがないため何とも言えないが、これからRustを始める方にオススメできそうな内容だった。&lt;/p>
+&lt;p>Rust入門書としておすすめできる内容だった。&lt;/p>
 &lt;p>本書は、タイトルにもある通りRust特有の概念をコンセプトに軸足を置いている点が大きな特徴。
 Rustの所有権やトレイトと言った概念を、CやPythonといった多言語と比較しながら取り上げてくれている。&lt;/p>
 &lt;p>例えば、C言語におけるメモリ管理の難しさやJavaにおける多重継承問題が比較として取り上げられていたりするのだが、テキストだけでなく実際のソースコードや図を用いて丁寧に説明してくれている。
 その為、読み手もイメージが湧きやすい内容になっている。&lt;/p>
 &lt;p>他言語との対比を用いることで、難しいとされているRust特有の概念をうまく説明してくれているような気がした。&lt;/p>
 &lt;h2 id="読書メモ">読書メモ&lt;/h2>
-&lt;p>&lt;a href="https://gist.github.com/mudrk/507bb55dc5fb0a2257174249219c3230">コンセプトから始めるRust_読書メモ · GitHub&lt;/a>&lt;/p></description></item><item><title>「嫌われる勇気」を読んだ</title><link>https://mdgw.github.io/post/0113/</link><pubDate>Thu, 13 Jan 2022 09:50:16 +0900</pubDate><guid>https://mdgw.github.io/post/0113/</guid><description>&lt;h2 id="内容">内容&lt;/h2>
+&lt;p>&lt;a href="https://gist.github.com/mudrk/507bb55dc5fb0a2257174249219c3230">コンセプトから始めるRust_読書メモ · GitHub&lt;/a>&lt;/p></description></item><item><title>「嫌われる勇気」を読んだ</title><link>https://mdgw.github.io/post/0113/</link><pubDate>Thu, 13 Jan 2022 09:50:16 +0900</pubDate><guid>https://mdgw.github.io/post/0113/</guid><description>&lt;p>&lt;a href="https://www.diamond.co.jp/book/9784478025819.html">嫌われる勇気&lt;/a>を読んだ感想とか。&lt;/p>
+&lt;h2 id="モチベーション">モチベーション&lt;/h2>
+&lt;p>会社の人が絶賛していたので、気になって読んでみた。&lt;/p>
+&lt;h2 id="内容">内容&lt;/h2>
 &lt;p>青年と哲人の対話形式によって、アドラーの心理学について教えてくれる本。&lt;/p>
 &lt;p>アドラーの心理学とは、人が幸せに生きるための学問みたいなもので、以下の4つの概念がキーワードとなる。&lt;/p>
 &lt;ul>
@@ -48,8 +50,8 @@ Rustの所有権やトレイトと言った概念を、CやPythonといった多
 &lt;li>他者信頼: 他者を信頼するときに条件を一切付けないこと&lt;/li>
 &lt;li>他者貢献: 自己犠牲ではなく、自分の価値を実感するためになされること&lt;/li>
 &lt;/ul>
-&lt;h2 id="所感">所感&lt;/h2>
-&lt;p>自身も過度に人の目を気にしてしまいがちだが、マインドを180度変えてくれるようなそんな1冊。&lt;br>
+&lt;h2 id="感想">感想&lt;/h2>
+&lt;p>自身も過度に人の目を気にしてしまいがちだが、マインドを180度変えてくれるようなそんな1冊。
 すぐに実践するのは難しいが、 キーワードとなる概念を頭の片隅に置くことで、生きづらい日常が少しずつ変わっていくことを期待する。&lt;/p></description></item><item><title>Alacrittyを使い始めた</title><link>https://mdgw.github.io/post/0104/</link><pubDate>Tue, 04 Jan 2022 00:11:16 +0900</pubDate><guid>https://mdgw.github.io/post/0104/</guid><description>&lt;p>ターミナルエミュレータをiTerm2からAlacrittyに変えてみた。&lt;/p>
 &lt;h2 id="alacritty">Alacritty&lt;/h2>
 &lt;p>Rust製のターミナルエミュレータ。&lt;/p>
