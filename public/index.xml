@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>mdgw</title>
+    <title>Home on mdgw</title>
     <link>https://mdgw.github.io/</link>
-    <description>Recent content on mdgw</description>
+    <description>Recent content in Home on mdgw</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Sun, 13 Mar 2022 22:23:20 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 13 Mar 2022 20:21:27 +0900</lastBuildDate>
     
 	<atom:link href="https://mdgw.github.io/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>「コンセプトから理解するRust」を読んだ</title>
       <link>https://mdgw.github.io/post/0313/</link>
-      <pubDate>Sun, 13 Mar 2022 22:23:20 +0900</pubDate>
+      <pubDate>Sun, 13 Mar 2022 20:21:27 +0900</pubDate>
       
       <guid>https://mdgw.github.io/post/0313/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://gihyo.jp/book/2022/978-4-297-12562-2&#34;&gt;コンセプトから理解するRust&lt;/a&gt;を読んだ感想とか。&lt;/p&gt;
@@ -23,14 +23,11 @@
 &lt;p&gt;Rustの入門を、 &lt;a href=&#34;https://doc.rust-lang.org/book/&#34;&gt;the book&lt;/a&gt;  と呼ばれる公式ドキュメントを始めるも、あまり理解が進まず途中で挫折。&lt;/p&gt;
 &lt;p&gt;そこで、日本語で書かれたRust入門書を調べていたところ、「コンセプトから理解する」というキーワードに惹かれ、購入を決意したもの。&lt;/p&gt;
 &lt;h2 id=&#34;感想&#34;&gt;感想&lt;/h2&gt;
-&lt;p&gt;Rust入門書としておすすめできる内容だった。&lt;/p&gt;
-&lt;p&gt;本書は、タイトルにもある通りRust特有の概念をコンセプトに軸足を置いている点が大きな特徴。
-Rustの所有権やトレイトと言った概念を、CやPythonといった多言語と比較しながら取り上げてくれている。&lt;/p&gt;
-&lt;p&gt;例えば、C言語におけるメモリ管理の難しさやJavaにおける多重継承問題が比較として取り上げられていたりするのだが、テキストだけでなく実際のソースコードや図を用いて丁寧に説明してくれている。
-その為、読み手もイメージが湧きやすい内容になっている。&lt;/p&gt;
-&lt;p&gt;他言語との対比を用いることで、難しいとされているRust特有の概念をうまく説明してくれているような気がした。&lt;/p&gt;
+&lt;p&gt;Rust初心者の自分が、とりあえずRustの大枠について学ぶにはとても良い本だった。&lt;br&gt;
+本書の説明にもある通り、他のプログラミング言語とコードレベルで比較しながら、「なぜそのような仕様になっているのか」というコンセプトベースでRustの特有の概念（所有権やトレイトなど）を解説している。&lt;/p&gt;
+&lt;p&gt;とはいえ、比較対象のプログラミング言語（主にC/C+、Python）の知見がない自分にとっては、これらのコードの理解もある程度必要になってしまい、結果的に読み終えるのにかなり時間がかかってしまった。&lt;/p&gt;
 &lt;h2 id=&#34;読書メモ&#34;&gt;読書メモ&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://gist.github.com/mudrk/507bb55dc5fb0a2257174249219c3230&#34;&gt;コンセプトから始めるRust_読書メモ · GitHub&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://gist.github.com/mdgw/507bb55dc5fb0a2257174249219c3230&#34;&gt;コンセプトから理解するRust_読書メモ.md&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
