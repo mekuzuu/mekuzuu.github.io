@@ -1,4 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tags on mdgw</title><link>https://mdgw.github.io/tags/</link><description>Recent content in Tags on mdgw</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><atom:link href="https://mdgw.github.io/tags/index.xml" rel="self" type="application/rss+xml"/><item><title>「嫌われる勇気」を読んだ</title><link>https://mdgw.github.io/post/0113/</link><pubDate>Thu, 13 Jan 2022 09:50:16 +0900</pubDate><guid>https://mdgw.github.io/post/0113/</guid><description>&lt;p>&lt;a href="https://www.diamond.co.jp/book/9784478025819.html">嫌われる勇気&lt;/a>を読んだ感想とか。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tags on mdgw</title><link>https://mdgw.github.io/tags/</link><description>Recent content in Tags on mdgw</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><atom:link href="https://mdgw.github.io/tags/index.xml" rel="self" type="application/rss+xml"/><item><title>「コンセプトから理解するRust」を読んだ</title><link>https://mdgw.github.io/post/0313/</link><pubDate>Sun, 13 Mar 2022 20:21:27 +0900</pubDate><guid>https://mdgw.github.io/post/0313/</guid><description>&lt;p>&lt;a href="https://gihyo.jp/book/2022/978-4-297-12562-2">コンセプトから理解するRust&lt;/a>を読んだ感想とか。&lt;/p>
+&lt;h2 id="モチベーション">モチベーション&lt;/h2>
+&lt;p>Rustの入門を、 &lt;a href="https://doc.rust-lang.org/book/">the book&lt;/a> と呼ばれる公式ドキュメントを始めるも、あまり理解が進まず途中で挫折。&lt;/p>
+&lt;p>そこで、日本語で書かれたRust入門書を調べていたところ、「コンセプトから理解する」というキーワードに惹かれ、購入を決意したもの。&lt;/p>
+&lt;h2 id="感想">感想&lt;/h2>
+&lt;p>Rust初心者の自分が、とりあえずRustの大枠について学ぶにはとても良い本だった。&lt;br>
+本書の説明にもある通り、他のプログラミング言語とコードレベルで比較しながら、「なぜそのような仕様になっているのか」というコンセプトベースでRustの特有の概念（所有権やトレイトなど）を解説している。&lt;/p>
+&lt;p>とはいえ、比較対象のプログラミング言語（主にC/C+、Python）の知見がない自分にとっては、これらのコードの理解もある程度必要になってしまい、結果的に読み終えるのにかなり時間がかかってしまった。&lt;/p>
+&lt;h2 id="読書メモ">読書メモ&lt;/h2>
+&lt;p>&lt;a href="https://gist.github.com/mdgw/507bb55dc5fb0a2257174249219c3230">コンセプトから理解するRust_読書メモ.md&lt;/a>&lt;/p></description></item><item><title>「嫌われる勇気」を読んだ</title><link>https://mdgw.github.io/post/0113/</link><pubDate>Thu, 13 Jan 2022 09:50:16 +0900</pubDate><guid>https://mdgw.github.io/post/0113/</guid><description>&lt;p>&lt;a href="https://www.diamond.co.jp/book/9784478025819.html">嫌われる勇気&lt;/a>を読んだ感想とか。&lt;/p>
 &lt;h2 id="モチベーション">モチベーション&lt;/h2>
 &lt;p>会社の人が絶賛していたので、気になって読んでみた。&lt;/p>
 &lt;h2 id="内容">内容&lt;/h2>
