@@ -1,6 +1,6 @@
 baseURL = 'https://mdgw.github.io/'
 languageCode = 'ja-jp'
-title = 'mdgw'
+title = "mdgw's blog"
 theme = "etch"
 
 enableInlineShortcodes = true
@@ -14,13 +14,6 @@ pygmentsUseClasses = true
   highlight = true
 
 [menu]
-  [[menu.main]]
-    identifier = "posts"
-    name = "posts"
-    title = "posts"
-    url = "/"
-    weight = 10
-
   [[menu.main]]
     identifier = "about"
     name = "about"
