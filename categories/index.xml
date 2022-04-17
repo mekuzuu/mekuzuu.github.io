@@ -1,4 +1,73 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Categories on mdgw</title><link>https://mdgw.github.io/categories/</link><description>Recent content in Categories on mdgw</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><atom:link href="https://mdgw.github.io/categories/index.xml" rel="self" type="application/rss+xml"/><item><title>「コンセプトから理解するRust」を読んだ</title><link>https://mdgw.github.io/post/0313/</link><pubDate>Sun, 13 Mar 2022 20:21:27 +0900</pubDate><guid>https://mdgw.github.io/post/0313/</guid><description>&lt;p>&lt;a href="https://gihyo.jp/book/2022/978-4-297-12562-2">コンセプトから理解するRust&lt;/a>を読んだ感想とか。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Categories on mdgw</title><link>https://mdgw.github.io/categories/</link><description>Recent content in Categories on mdgw</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><atom:link href="https://mdgw.github.io/categories/index.xml" rel="self" type="application/rss+xml"/><item><title>Github Actions + textlint + reviewdogで記事を校正する</title><link>https://mdgw.github.io/post/0416/</link><pubDate>Sat, 16 Apr 2022 22:31:13 +0900</pubDate><guid>https://mdgw.github.io/post/0416/</guid><description>&lt;p>Github Actionsを使って、Hugoで書いた記事にtextlintをかけてエラーが検出されたら、reviewdogでPull Requestにコメントするやつを導入したお話。&lt;/p>
+&lt;p>textlintやreviewdogについての説明は割愛する。&lt;/p>
+&lt;h2 id="成果物">成果物&lt;/h2>
+&lt;p>導入したものがこちら。
+&lt;a href="https://gyazo.com/50f3b4bcdcb802cd6b5f445e1938a087">&lt;img src="https://i.gyazo.com/50f3b4bcdcb802cd6b5f445e1938a087.png" alt="Image from Gyazo">&lt;/a>&lt;/p>
+&lt;h2 id="モチベーション">モチベーション&lt;/h2>
+&lt;p>記事をあとで見返すと誤字脱字や日本語がおかしい部分を見つけたりするので、記事を投稿する際に機械的に文章校正する仕組みを導入したかった。&lt;/p>
+&lt;h2 id="前提">前提&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/npm/cli">npm&lt;/a> v8.5.5&lt;/li>
+&lt;li>&lt;a href="https://github.com/textlint/textlint">textlint&lt;/a> v12.1.1&lt;/li>
+&lt;li>&lt;a href="https://github.com/reviewdog/action-setup">reviewdog/action-setup&lt;/a> v1.0.3
+&lt;ul>
+&lt;li>Github Actionsでいい感じにreviewdogを使うことができるやつ&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="textlintの設定">textlintの設定&lt;/h2>
+&lt;p>まず、textlintを&lt;code>package.json&lt;/code>に追加する。&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="line">&lt;span class="cl">npm init --yes
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">npm install --save-dev textlint
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>次に、textlintのルールのプリセットを追加する。&lt;/p>
+&lt;p>プリセットには、&lt;a href="https://github.com/textlint-ja/textlint-rule-preset-ja-technical-writing">preset-ja-technical-writing&lt;/a>を採用した。&lt;br>
+全体的に少し厳しめの設定がデフォルト値らしいので、今後使いにくい部分などが出てきたら設定を緩くしていく。&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="line">&lt;span class="cl">npm install textlint-rule-preset-ja-technical-writing
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>最後に、リポジトリのルート直下に&lt;code>.textlintrc&lt;/code>を作成し、適用するルールの設定を記載する。&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-json" data-lang="json">&lt;span class="line">&lt;span class="cl">&lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;rules&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;preset-ja-technical-writing&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="kc">true&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="github-actionsの設定">GitHub Actionsの設定&lt;/h2>
+&lt;p>Github Actionsでtextlintとreviewdogを実行するworkflowの設定。&lt;/p>
+&lt;p>reviewdogのリポジトリにworkflowのサンプルがあったので、それを参考にした。&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-reviewdog.yml" data-lang="reviewdog.yml">&lt;span class="line">&lt;span class="cl">&lt;span class="nt">name&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">reviewdog&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="nt">on&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">push&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">branches&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="l">master&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">pull_request&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="nt">jobs&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">textlint&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">name&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">runner / textlint&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">runs-on&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">ubuntu-latest&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">steps&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="nt">uses&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">actions/checkout@v3&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="nt">uses&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">reviewdog/action-setup@v1&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="nt">run&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">npm install&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="nt">name&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">textlint&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">env&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">REVIEWDOG_GITHUB_API_TOKEN&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">${{ secrets.GITHUB_TOKEN }}&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">run&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="p">|&lt;/span>&lt;span class="sd">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="sd"> $(npm bin)/textlint -f checkstyle content/post/**.md | \
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="sd"> reviewdog -f=checkstyle -name=&amp;#34;textlint&amp;#34; -reporter=github-pr-review&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>ざっくり以下のような内容となっている。&lt;/p>
+&lt;ul>
+&lt;li>Push（master branch only）もしくはPull Requestをトリガに設定&lt;/li>
+&lt;li>npmをインストール&lt;/li>
+&lt;li>reviewdogがコメントを書き込めるように&lt;code>GITHUB_TOKEN&lt;/code>を設定&lt;/li>
+&lt;li>textlintの実行結果をpipeしてreviewdogに渡す&lt;/li>
+&lt;/ul>
+&lt;p>&lt;code>GITHUB_TOKEN&lt;/code>の部分は自動的に生成される為、特に意識しなくてよい。&lt;/p>
+&lt;h2 id="参考">参考&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://textlint.github.io/">https://textlint.github.io/&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/reviewdog/reviewdog/blob/master/.github/workflows/reviewdog.yml">https://github.com/reviewdog/reviewdog/blob/master/.github/workflows/reviewdog.yml&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.github.com/en/actions">https://docs.github.com/en/actions&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>「コンセプトから理解するRust」を読んだ</title><link>https://mdgw.github.io/post/0313/</link><pubDate>Sun, 13 Mar 2022 20:21:27 +0900</pubDate><guid>https://mdgw.github.io/post/0313/</guid><description>&lt;p>&lt;a href="https://gihyo.jp/book/2022/978-4-297-12562-2">コンセプトから理解するRust&lt;/a>を読んだ感想とか。&lt;/p>
 &lt;h2 id="モチベーション">モチベーション&lt;/h2>
 &lt;p>Rustの入門を、 &lt;a href="https://doc.rust-lang.org/book/">the book&lt;/a> と呼ばれる公式ドキュメントを始めるも、あまり理解が進まず途中で挫折。&lt;/p>
 &lt;p>そこで、日本語で書かれたRust入門書を調べていたところ、「コンセプトから理解する」というキーワードに惹かれ、購入を決意したもの。&lt;/p>
