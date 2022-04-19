@@ -1,4 +1,95 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tags on mdgw's blog</title><link>https://mdgw.github.io/tags/</link><description>Recent content in Tags on mdgw's blog</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><atom:link href="https://mdgw.github.io/tags/index.xml" rel="self" type="application/rss+xml"/><item><title>Github Actions + textlint + reviewdogで記事を校正する</title><link>https://mdgw.github.io/post/0416/</link><pubDate>Sat, 16 Apr 2022 22:31:13 +0900</pubDate><guid>https://mdgw.github.io/post/0416/</guid><description>&lt;p>Github Actionsを使って、Hugoで書いた記事にtextlintをかけてエラーが検出されたら、reviewdogでPull Requestにコメントするやつを導入したお話。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tags on mdgw's blog</title><link>https://mdgw.github.io/tags/</link><description>Recent content in Tags on mdgw's blog</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><atom:link href="https://mdgw.github.io/tags/index.xml" rel="self" type="application/rss+xml"/><item><title>Go Tech Talk【サイバーエージェント x ミラティブ】に参加した</title><link>https://mdgw.github.io/post/0419/</link><pubDate>Tue, 19 Apr 2022 18:08:58 +0900</pubDate><guid>https://mdgw.github.io/post/0419/</guid><description>&lt;p>先日、Goを題材とした技術イベントに参加した時のメモ。
+あまりうまくメモを取ることができなかったけど、残しておく。&lt;/p>
+&lt;h1 id="イベント概要">イベント概要&lt;/h1>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;/th>
+&lt;th>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>日時&lt;/td>
+&lt;td>2022/04/14&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>イベント名&lt;/td>
+&lt;td>Go Tech Talk【サイバーエージェント x ミラティブ】&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>詳細&lt;/td>
+&lt;td>&lt;a href="https://mirrativ.connpass.com/event/243037/">https://mirrativ.connpass.com/event/243037/&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h1 id="発表">発表&lt;/h1>
+&lt;h3 id="go--githubactions-でリリースフローを改善した話">Go + GitHubActions でリリースフローを改善した話&lt;/h3>
+&lt;ul>
+&lt;li>現状は設定ファイルのtagを書き換えたのをトリガにGithub Actionsがtagを打つ&lt;/li>
+&lt;li>そして、CIはtagが打たれたのをトリガにデプロイする&lt;/li>
+&lt;li>設定ファイルのtagを手動で書き換えるの手間なので、自動化したい&lt;/li>
+&lt;li>Github ActionsのWorkflow Dispatchを使っている&lt;/li>
+&lt;li>yamlのI/Oでハマった&lt;/li>
+&lt;li>goccy/go-yamlを使って解決
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/goccy/go-yaml">https://github.com/goccy/go-yaml&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="ミラティブのサーバサイドをgo--clean-architectureに再設計した話">ミラティブのサーバサイドをGo + Clean Architectureに再設計した話&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://tech.mirrativ.stream/entry/2020/11/30/142354">https://tech.mirrativ.stream/entry/2020/11/30/142354&lt;/a>&lt;/li>
+&lt;li>求められる要件
+&lt;ul>
+&lt;li>リアルタイム性/即時性&lt;/li>
+&lt;li>データ量多い&lt;/li>
+&lt;li>アクセスの時間的局所性が高い&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>元々MVC + Serviceだけど、依存関係がスパゲティ&lt;/li>
+&lt;li>Clean Architectureでコンポーネントの依存性を一方向にすることを最重要視&lt;/li>
+&lt;li>PerlからGoへ移行している&lt;/li>
+&lt;/ul>
+&lt;h3 id="goでcontinuous-profilingをやっている話">GoでContinuous Profilingをやっている話&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://tech.mirrativ.stream/entry/2020/12/18/115553">https://tech.mirrativ.stream/entry/2020/12/18/115553&lt;/a>&lt;/li>
+&lt;li>本番環境で継続的にProfilingすること&lt;/li>
+&lt;li>Profilingすることで問題が発生する前後の状態を比較できる&lt;/li>
+&lt;li>pprofを採用&lt;/li>
+&lt;li>オーバヘッドが小さいので、本番環境でも利用できる&lt;/li>
+&lt;li>しかし、Profiling結果の保存先、保存したProfiling結果の検索・抽出方法が課題としてあった&lt;/li>
+&lt;li>そこで、profefeというOSSを導入して解決
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/profefe/profefe">https://github.com/profefe/profefe&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h1 id="パネルトーク">パネルトーク&lt;/h1>
+&lt;h3 id="技術的に大変だったことは">技術的に大変だったことは&lt;/h3>
+&lt;ul>
+&lt;li>JavaはSpringなどの有名なフレームワークがあって便利だけど、Goはないので自前でがんばったりする必要があるところ&lt;/li>
+&lt;li>二重メンテが必要になるので辛い&lt;/li>
+&lt;/ul>
+&lt;h3 id="go未経験メンバーのキャッチアップスピードを早める工夫は">Go未経験メンバーのキャッチアップスピードを早める工夫は&lt;/h3>
+&lt;ul>
+&lt;li>Tour of Go、Effectiv Go&lt;/li>
+&lt;li>とにかく実戦投入&lt;/li>
+&lt;li>あまり工夫してない（言語仕様がシンプル、lintもあるので変なコードか出にくい）&lt;/li>
+&lt;li>Java書いている人がGo書くと、Javaっぽいコードが散見されるらしい&lt;/li>
+&lt;/ul>
+&lt;h3 id="最近のhot-topicは">最近のHot Topicは&lt;/h3>
+&lt;ul>
+&lt;li>Go Generics何に使おう問題（ないのが当たり前だったから思いつかない）&lt;/li>
+&lt;/ul>
+&lt;h1 id="感想">感想&lt;/h1>
+&lt;ul>
+&lt;li>総じて面白かった&lt;/li>
+&lt;li>CAは入社2年目くらいの人が堂々と発表&amp;amp;パネルトークしていて、おじさんは尊敬の念を抱いた&lt;/li>
+&lt;li>Genericsを何に使うかパッと思いつかないあたり、同じことを思っていて安心した&lt;/li>
+&lt;li>ミラティブのクリーンアーキテクチャの発表は、2020/11/30の技術ブログのネタと同じっぽいけど、まだ完全にGoへは移行しきれてないということなのかな&lt;/li>
+&lt;li>リリースフローを改善したってやつは、どれくらい効率化できたかもう少し詳しく知りたかった（聞けばよかった）&lt;/li>
+&lt;/ul></description></item><item><title>Github Actions + textlint + reviewdogで記事を校正する</title><link>https://mdgw.github.io/post/0416/</link><pubDate>Sat, 16 Apr 2022 22:31:13 +0900</pubDate><guid>https://mdgw.github.io/post/0416/</guid><description>&lt;p>Github Actionsを使って、Hugoで書いた記事にtextlintをかけてエラーが検出されたら、reviewdogでPull Requestにコメントするやつを導入したお話。&lt;/p>
 &lt;p>textlintやreviewdogについての説明は割愛する。&lt;/p>
 &lt;h2 id="成果物">成果物&lt;/h2>
 &lt;p>導入したものがこちら。
