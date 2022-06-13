@@ -1,6 +1,6 @@
-baseURL = 'https://mdgw.github.io/'
+baseURL = 'https://mekuzuu.github.io/'
 languageCode = 'ja-jp'
-title = "mdgw's blog"
+title = "mekuzu"
 theme = "etch"
 
 enableInlineShortcodes = true
@@ -9,7 +9,7 @@ pygmentsUseClasses = true
 
 [params]
   description = ""
-  copyright = "Copyright © mdgw"
+  copyright = "Copyright © mekuzuu"
   dark = "off"
   highlight = true
 
