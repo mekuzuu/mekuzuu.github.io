@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on mdgw's blog</title><link>https://mdgw.github.io/post/</link><description>Recent content in Posts on mdgw's blog</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Tue, 19 Apr 2022 18:08:58 +0900</lastBuildDate><atom:link href="https://mdgw.github.io/post/index.xml" rel="self" type="application/rss+xml"/><item><title>Go Tech Talk【サイバーエージェント x ミラティブ】に参加した</title><link>https://mdgw.github.io/post/0419/</link><pubDate>Tue, 19 Apr 2022 18:08:58 +0900</pubDate><guid>https://mdgw.github.io/post/0419/</guid><description>&lt;p>先日、Goを題材とした技術イベントに参加した時のメモ。&lt;br>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on mekuzu</title><link>https://mekuzuu.github.io/post/</link><description>Recent content in Posts on mekuzu</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Tue, 19 Apr 2022 18:08:58 +0900</lastBuildDate><atom:link href="https://mekuzuu.github.io/post/index.xml" rel="self" type="application/rss+xml"/><item><title>Go Tech Talk【サイバーエージェント x ミラティブ】に参加した</title><link>https://mekuzuu.github.io/post/0419/</link><pubDate>Tue, 19 Apr 2022 18:08:58 +0900</pubDate><guid>https://mekuzuu.github.io/post/0419/</guid><description>&lt;p>先日、Goを題材とした技術イベントに参加した時のメモ。&lt;br>
 あまりうまくメモを取ることができなかったけど、残しておく。&lt;/p>
 &lt;h1 id="イベント概要">イベント概要&lt;/h1>
 &lt;table>
@@ -89,7 +89,7 @@
 &lt;li>Genericsを何に使うかパッと思いつかないあたり、同じことを思っていて安心した&lt;/li>
 &lt;li>ミラティブのクリーンアーキテクチャの発表は、2020/11/30の技術ブログのネタと同じっぽいけど、まだ完全にGoへは移行しきれてないということなのかな&lt;/li>
 &lt;li>リリースフローを改善したってやつは、どれくらい効率化できたかもう少し詳しく知りたかった（聞けばよかった）&lt;/li>
-&lt;/ul></description></item><item><title>Github Actions + textlint + reviewdogで記事を校正する</title><link>https://mdgw.github.io/post/0416/</link><pubDate>Sat, 16 Apr 2022 22:31:13 +0900</pubDate><guid>https://mdgw.github.io/post/0416/</guid><description>&lt;p>Github Actionsを使って、Hugoで書いた記事にtextlintをかけてエラーが検出されたら、reviewdogでPull Requestにコメントするやつを導入したお話。&lt;/p>
+&lt;/ul></description></item><item><title>Github Actions + textlint + reviewdogで記事を校正する</title><link>https://mekuzuu.github.io/post/0416/</link><pubDate>Sat, 16 Apr 2022 22:31:13 +0900</pubDate><guid>https://mekuzuu.github.io/post/0416/</guid><description>&lt;p>Github Actionsを使って、Hugoで書いた記事にtextlintをかけてエラーが検出されたら、reviewdogでPull Requestにコメントするやつを導入したお話。&lt;/p>
 &lt;p>textlintやreviewdogについての説明は割愛する。&lt;/p>
 &lt;h2 id="成果物">成果物&lt;/h2>
 &lt;p>導入したものがこちら。
@@ -158,7 +158,7 @@
 &lt;li>&lt;a href="https://textlint.github.io/">https://textlint.github.io/&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://github.com/reviewdog/reviewdog/blob/master/.github/workflows/reviewdog.yml">https://github.com/reviewdog/reviewdog/blob/master/.github/workflows/reviewdog.yml&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://docs.github.com/en/actions">https://docs.github.com/en/actions&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>「コンセプトから理解するRust」を読んだ</title><link>https://mdgw.github.io/post/0313/</link><pubDate>Sun, 13 Mar 2022 20:21:27 +0900</pubDate><guid>https://mdgw.github.io/post/0313/</guid><description>&lt;p>&lt;a href="https://gihyo.jp/book/2022/978-4-297-12562-2">コンセプトから理解するRust&lt;/a>を読んだ感想とか。&lt;/p>
+&lt;/ul></description></item><item><title>「コンセプトから理解するRust」を読んだ</title><link>https://mekuzuu.github.io/post/0313/</link><pubDate>Sun, 13 Mar 2022 20:21:27 +0900</pubDate><guid>https://mekuzuu.github.io/post/0313/</guid><description>&lt;p>&lt;a href="https://gihyo.jp/book/2022/978-4-297-12562-2">コンセプトから理解するRust&lt;/a>を読んだ感想とか。&lt;/p>
 &lt;h2 id="モチベーション">モチベーション&lt;/h2>
 &lt;p>Rustの入門を、 &lt;a href="https://doc.rust-lang.org/book/">the book&lt;/a> と呼ばれる公式ドキュメントを始めるも、あまり理解が進まず途中で挫折。&lt;/p>
 &lt;p>そこで、日本語で書かれたRust入門書を調べていたところ、「コンセプトから理解する」というキーワードに惹かれ、購入を決意したもの。&lt;/p>
@@ -167,7 +167,7 @@
 本書の説明にもある通り、他のプログラミング言語とコードレベルで比較しながら、「なぜそのような仕様になっているのか」というコンセプトベースでRustの特有の概念（所有権やトレイトなど）を解説している。&lt;/p>
 &lt;p>とはいえ、比較対象のプログラミング言語（主にC/C+、Python）の知見がない自分にとっては、これらのコードの理解もある程度必要になってしまい、結果的に読み終えるのにかなり時間がかかってしまった。&lt;/p>
 &lt;h2 id="読書メモ">読書メモ&lt;/h2>
-&lt;p>&lt;a href="https://gist.github.com/mdgw/507bb55dc5fb0a2257174249219c3230">コンセプトから理解するRust_読書メモ.md&lt;/a>&lt;/p></description></item><item><title>「嫌われる勇気」を読んだ</title><link>https://mdgw.github.io/post/0113/</link><pubDate>Thu, 13 Jan 2022 09:50:16 +0900</pubDate><guid>https://mdgw.github.io/post/0113/</guid><description>&lt;p>&lt;a href="https://www.diamond.co.jp/book/9784478025819.html">嫌われる勇気&lt;/a>を読んだ感想とか。&lt;/p>
+&lt;p>&lt;a href="https://gist.github.com/mdgw/507bb55dc5fb0a2257174249219c3230">コンセプトから理解するRust_読書メモ.md&lt;/a>&lt;/p></description></item><item><title>「嫌われる勇気」を読んだ</title><link>https://mekuzuu.github.io/post/0113/</link><pubDate>Thu, 13 Jan 2022 09:50:16 +0900</pubDate><guid>https://mekuzuu.github.io/post/0113/</guid><description>&lt;p>&lt;a href="https://www.diamond.co.jp/book/9784478025819.html">嫌われる勇気&lt;/a>を読んだ感想とか。&lt;/p>
 &lt;h2 id="モチベーション">モチベーション&lt;/h2>
 &lt;p>会社の人が絶賛していたので、気になって読んでみた。&lt;/p>
 &lt;h2 id="内容">内容&lt;/h2>
@@ -209,7 +209,7 @@
 &lt;/ul>
 &lt;h2 id="感想">感想&lt;/h2>
 &lt;p>自身も過度に人の目を気にしてしまいがちだが、マインドを180度変えてくれるようなそんな1冊。
-すぐに実践するのは難しいが、 キーワードとなる概念を頭の片隅に置くことで、生きづらい日常が少しずつ変わっていくことを期待する。&lt;/p></description></item><item><title>Alacrittyを使い始めた</title><link>https://mdgw.github.io/post/0104/</link><pubDate>Tue, 04 Jan 2022 00:11:16 +0900</pubDate><guid>https://mdgw.github.io/post/0104/</guid><description>&lt;p>ターミナルエミュレータをiTerm2からAlacrittyに変えてみた。&lt;/p>
+すぐに実践するのは難しいが、 キーワードとなる概念を頭の片隅に置くことで、生きづらい日常が少しずつ変わっていくことを期待する。&lt;/p></description></item><item><title>Alacrittyを使い始めた</title><link>https://mekuzuu.github.io/post/0104/</link><pubDate>Tue, 04 Jan 2022 00:11:16 +0900</pubDate><guid>https://mekuzuu.github.io/post/0104/</guid><description>&lt;p>ターミナルエミュレータをiTerm2からAlacrittyに変えてみた。&lt;/p>
 &lt;h2 id="alacritty">Alacritty&lt;/h2>
 &lt;p>Rust製のターミナルエミュレータ。&lt;/p>
 &lt;p>GPUでレンダリングするため高速らしい。&lt;/p>
