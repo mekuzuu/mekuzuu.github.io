@@ -1,6 +1,6 @@
 baseURL = 'https://mekuzuu.github.io/'
 languageCode = 'ja-jp'
-title = "mekuzu"
+title = "misc.log()"
 theme = "etch"
 
 enableInlineShortcodes = true
